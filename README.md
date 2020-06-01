@@ -1,7 +1,7 @@
 # to-do-list
 
 ```
-a to do list using Vue.jss
+a to do list using Vue.js
 ```
 
 https://bast17-dev-todo-vuejs.netlify.app/
