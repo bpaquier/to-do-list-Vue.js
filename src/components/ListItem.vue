@@ -44,16 +44,21 @@ export default {
 
 <style lang="scss" scoped>
 li {
-  width: 100%;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 30px;
 
+  & p {
+    margin-bottom: 20px;
+    max-width: 80%;
+    overflow: visible;
+  }
   & div {
-    width: 30%;
     display: flex;
-    justify-content: space-between;
 
     & .taskStatuButton {
       background-color: rgb(64, 185, 131);
@@ -70,6 +75,17 @@ li {
       background-color: white;
       color: rgb(64, 185, 131);
       border: 1px solid rgb(64, 185, 131);
+    }
+  }
+
+  @media (min-width: 600px) {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    & p {
+      margin: 0;
     }
   }
 }

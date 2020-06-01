@@ -26,18 +26,38 @@ export default {
 <style lang="scss" scoped>
 form {
   margin: 30px 0;
-  width: 50%;
+
+  min-width: 200px;
+  max-width: 700px;
+  width: 80%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
+  flex-direction: column;
+
+  @media (min-width: 600px) {
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+  }
 }
 
 input {
   margin: 0 10px;
 
   &[type='text'] {
+    border: none;
+    border-radius: 30px;
+    border: 1px solid grey;
     height: 30px;
-    width: 90%;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+
+    @media (min-width: 600px) {
+      width: 80%;
+      margin: 0;
+    }
   }
 
   &[type='submit'] {

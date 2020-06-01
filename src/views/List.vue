@@ -24,5 +24,6 @@ export default {
 <style lang="scss" scoped>
 ul {
   width: 60%;
+  max-width: 700px;
 }
 </style>
