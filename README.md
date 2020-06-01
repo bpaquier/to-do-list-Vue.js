@@ -2,8 +2,9 @@
 
 ```
 a to do list using Vue.jss
-https://bast17-dev-toto-vuejs.netlify.app/
 ```
+
+https://bast17-dev-toto-vuejs.netlify.app/
 
 ## Project setup
 
