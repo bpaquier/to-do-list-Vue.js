@@ -23,7 +23,7 @@ export default {
 
 <style lang="scss" scoped>
 button {
-  padding: 10px 20px;
+  padding: 10px 21px;
   color: white;
   border: 1px solid white;
   border-radius: 30px;
